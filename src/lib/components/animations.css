@@ -1,0 +1,13 @@
+.slide-up {
+  animation: slideUp 900ms cubic-bezier(0.86, 0, 0.24, 1) forwards;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-100%);
+  }
+}

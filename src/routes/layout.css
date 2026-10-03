@@ -1,0 +1,51 @@
+@import 'tailwindcss';
+
+:root {
+  font-family: 'Google Sans', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Google Sans', sans-serif;
+  background: #ebedf0;
+}
+
+.font-sans {
+  font-family: 'Google Sans', sans-serif;
+}
+
+.font-hand {
+font-family: "Caveat", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3b3b3b;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #949494;
+}
+
+html,
+body,
+a,
+button,
+input,
+textarea,
+select,
+[role='button'] {
+  cursor: none !important;
+}
